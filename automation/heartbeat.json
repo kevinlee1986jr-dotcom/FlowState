@@ -1,0 +1,29 @@
+{
+  "serviceName": "FlowState API",
+  "instanceId": "flowstate-api-01",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "status": "UP",
+  "version": "1.2.3",
+  "uptimeSeconds": 3600,
+  "memoryUsage": {
+    "totalBytes": 8589934592,
+    "usedBytes": 2147483648,
+    "freeBytes": 6442450944
+  },
+  "cpuUsage": 0.15,
+  "activeThreads": 25,
+  "databaseConnectionStatus": "CONNECTED",
+  "externalDependencies": {
+    "redis": "CONNECTED",
+    "messageQueue": "HEALTHY"
+  },
+  "metrics": {
+    "requestsPerSecond": 125.5,
+    "averageResponseTimeMs": 25.7,
+    "errorRate": 0.001
+  },
+  "buildInfo": {
+    "gitCommitHash": "a1b2c3d4e5f67890",
+    "buildTimestamp": "2024-10-26T18:00:00Z"
+  }
+}
